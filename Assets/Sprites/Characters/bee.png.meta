@@ -84,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -146,7 +146,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bee_0
+      name: Bee_Body
       rect:
         serializedVersion: 2
         x: 7
@@ -154,7 +154,7 @@ TextureImporter:
         width: 44
         height: 46
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -168,15 +168,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bee_1
+      name: Bee_Wraps
       rect:
         serializedVersion: 2
         x: 55
-        y: 137
+        y: 115
         width: 44
-        height: 15
+        height: 46
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -190,15 +190,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bee_2
+      name: Bee_Head
       rect:
         serializedVersion: 2
-        x: 56
-        y: 145
-        width: 41
-        height: 11
+        x: 103
+        y: 127
+        width: 30
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -212,15 +212,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bee_3
+      name: Bee_Eyes
       rect:
         serializedVersion: 2
-        x: 103
-        y: 127
-        width: 30
-        height: 34
+        x: 135
+        y: 151
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -234,15 +234,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bee_4
+      name: Bee_Back_Wing
       rect:
         serializedVersion: 2
-        x: 135
-        y: 151
-        width: 11
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 151
+        y: 137
+        width: 41
+        height: 24
+      alignment: 3
+      pivot: {x: 1, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -256,15 +256,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bee_5
+      name: Bee_Front_Wing
       rect:
         serializedVersion: 2
-        x: 151
-        y: 137
-        width: 41
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 199
+        y: 149
+        width: 28
+        height: 12
+      alignment: 3
+      pivot: {x: 1, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -278,81 +278,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bee_6
-      rect:
-        serializedVersion: 2
-        x: 199
-        y: 149
-        width: 29
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d77c7a7b4b3aa6ad0800000000000000
-      internalID: -2708172229339265155
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bee_7
-      rect:
-        serializedVersion: 2
-        x: 55
-        y: 129
-        width: 44
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6a31bf28877b27240800000000000000
-      internalID: 4788091082069709734
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bee_8
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 115
-        width: 23
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1ec28f5e5490bc380800000000000000
-      internalID: -8950049638653088543
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bee_9
+      name: Bee_Background_0
       rect:
         serializedVersion: 2
         x: 7
-        y: 6
+        y: 7
         width: 99
-        height: 99
+        height: 98
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -366,15 +300,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bee_10
+      name: Bee_Background_1
       rect:
         serializedVersion: 2
         x: 111
-        y: 5
+        y: 6
         width: 110
-        height: 100
+        height: 99
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -388,15 +322,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bee_11
+      name: Bee_Background_2
       rect:
         serializedVersion: 2
         x: 223
-        y: 0
+        y: 1
         width: 103
-        height: 105
+        height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -413,7 +347,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 367e39a89f85ef1449d01c28425384da
     internalID: 0
     vertices: []
     indices: 
@@ -421,20 +355,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      bee_0: -4656658513182322354
-      bee_1: 8806478641461110654
-      bee_10: 1858920513309818496
-      bee_11: -6785510540280642411
-      bee_2: 2575153785110993952
-      bee_3: 7329798439485887900
-      bee_4: -996179858421597942
-      bee_5: 2292310385515897374
+      Bee_Back_Wing: -996179858421597942
+      Bee_Background_0: 3059558198080974601
+      Bee_Background_1: 1858920513309818496
+      Bee_Background_2: -6785510540280642411
+      Bee_Body: -4656658513182322354
+      Bee_Eyes: 7329798439485887900
+      Bee_Front_Wing: 2292310385515897374
+      Bee_Head: 2575153785110993952
+      Bee_Wraps: 8806478641461110654
       bee_6: -2708172229339265155
       bee_7: 4788091082069709734
       bee_8: -8950049638653088543
-      bee_9: 3059558198080974601
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

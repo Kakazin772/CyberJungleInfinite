@@ -75,7 +75,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -137,15 +137,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: jetpack-boost_0
+      name: jetpack-boost_iddle_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 29
+        y: 0
         width: 32
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 64
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -159,15 +159,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jetpack-boost_1
+      name: jetpack-boost_iddle_1
       rect:
         serializedVersion: 2
         x: 32
-        y: 26
+        y: 0
         width: 32
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 64
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -181,15 +181,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jetpack-boost_2
+      name: jetpack-boost_iddle_2
       rect:
         serializedVersion: 2
         x: 64
-        y: 22
+        y: 0
         width: 32
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 64
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -203,15 +203,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jetpack-boost_3
+      name: jetpack-boost_iddle_3
       rect:
         serializedVersion: 2
         x: 96
-        y: 19
+        y: 0
         width: 32
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 64
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -225,15 +225,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jetpack-boost_4
+      name: jetpack-boost_up_0
       rect:
         serializedVersion: 2
-        x: 128
+        x: 129
         y: 0
         width: 32
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -247,15 +247,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jetpack-boost_5
+      name: jetpack-boost_up_1
       rect:
         serializedVersion: 2
         x: 160
         y: 0
         width: 32
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -269,15 +269,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jetpack-boost_6
+      name: jetpack-boost_up_2
       rect:
         serializedVersion: 2
         x: 192
         y: 0
         width: 32
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -291,15 +291,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jetpack-boost_7
+      name: jetpack-boost_down_0
       rect:
         serializedVersion: 2
         x: 224
-        y: 29
+        y: 0
         width: 32
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 64
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -313,15 +313,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jetpack-boost_8
+      name: jetpack-boost_down_1
       rect:
         serializedVersion: 2
         x: 256
-        y: 29
+        y: 0
         width: 32
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 64
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -338,7 +338,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: bf5f86ef97c5ca04bb23f65f96dd7f2a
     internalID: 0
     vertices: []
     indices: 
@@ -346,17 +346,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":9.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":1.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":2,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      jetpack-boost_0: 3822678997150397982
-      jetpack-boost_1: -2711221001549571259
-      jetpack-boost_2: -881103419025112982
-      jetpack-boost_3: 314877206896564841
-      jetpack-boost_4: 7047173112811055945
-      jetpack-boost_5: -706272208471280906
-      jetpack-boost_6: 257261057420552573
-      jetpack-boost_7: -2072118813668339441
-      jetpack-boost_8: 3495957713153972891
+      jetpack-boost_down_0: -2072118813668339441
+      jetpack-boost_down_1: 3495957713153972891
+      jetpack-boost_iddle_0: 3822678997150397982
+      jetpack-boost_iddle_1: -2711221001549571259
+      jetpack-boost_iddle_2: -881103419025112982
+      jetpack-boost_iddle_3: 314877206896564841
+      jetpack-boost_up_0: 7047173112811055945
+      jetpack-boost_up_1: -706272208471280906
+      jetpack-boost_up_2: 257261057420552573
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
