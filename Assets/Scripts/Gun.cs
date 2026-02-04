@@ -12,10 +12,10 @@ public class Gun : MonoBehaviour
         InvokeRepeating(nameof(SpawnProjectile), inverval, inverval);
     }
 
-    private void OnDisable()
-    {
+     private void OnDisable()
+     {
         CancelInvoke(nameof(SpawnProjectile));
-    }
+     } 
 
     private void SpawnProjectile()
     {
