@@ -17,6 +17,11 @@ public class Moviment : MonoBehaviour
         ClampPositionToScreen();
     }
 
+    private void OnDisable()
+    {
+        Direction = Vector2.zero;
+    }
+
     public void Move()
     {
         Direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;

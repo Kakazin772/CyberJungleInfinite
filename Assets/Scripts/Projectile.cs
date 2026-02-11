@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 public class Projectile : MonoBehaviour
 {
     public string TargetTag;
+    public int Damage = 1;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -12,20 +13,12 @@ public class Projectile : MonoBehaviour
             return;
         }
 
-        if (collision.CompareTag("Player"))
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        }
-        else
-        {
-            if (collision.CompareTag("Enemy"))
-            {
-                Destroy(collision.gameObject);
-            }
-        }
+        HealthManager health = collision.GetComponent<HealthManager>();
 
-        Destroy(gameObject);
+        if (health != null)
+        {
+            health.Damage(Damage);
+            Destroy(gameObject);
+        }
     }
-
-
 }
