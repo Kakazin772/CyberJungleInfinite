@@ -34,6 +34,16 @@ public class Player : MonoBehaviour
         _animator.SetTrigger("Take_Damage");
     }
 
+    private void Invulnerabletrue()
+    {
+        _animator.SetBool("Blinking", true);
+    }
+
+    private void Invulnerablefalse()
+    {
+        _animator.SetBool("Blinking", false);
+    }
+
     private void Loose()
     {
         _controller.enabled = false;

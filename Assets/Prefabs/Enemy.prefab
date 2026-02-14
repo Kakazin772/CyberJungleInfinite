@@ -990,6 +990,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthManager
   StartHealth: 1
   MaxHealth: 1
+  InvulnerableInterval: 0
 --- !u!1 &5924376384340190833
 GameObject:
   m_ObjectHideFlags: 0
